@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{80E2C32F-CE62-475E-B0B9-AC888501E525}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Indentity", "Indentity", "{E16984AE-709B-483F-B561-E3BA57EF6589}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indentity.API", "Services\Indentity\Indentity.API\Indentity.API.csproj", "{F4276F39-C6CB-4AA9-94BA-008CED3D8283}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4276F39-C6CB-4AA9-94BA-008CED3D8283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4276F39-C6CB-4AA9-94BA-008CED3D8283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4276F39-C6CB-4AA9-94BA-008CED3D8283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4276F39-C6CB-4AA9-94BA-008CED3D8283}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E16984AE-709B-483F-B561-E3BA57EF6589} = {80E2C32F-CE62-475E-B0B9-AC888501E525}
+		{F4276F39-C6CB-4AA9-94BA-008CED3D8283} = {E16984AE-709B-483F-B561-E3BA57EF6589}
+	EndGlobalSection
+EndGlobal
